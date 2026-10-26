@@ -1,0 +1,12 @@
+<svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t2">
+  <title id="t2">Botol cold brew Rimba Roastery dengan es batu</title>
+  <rect width="300" height="300" rx="20" fill="#F6F0E7"/>
+  <path d="M135 70 L165 70 L165 95 L178 120 L178 240 Q178 254 150 254 Q122 254 122 240 L122 120 L135 95 Z" fill="#3A2A1C" opacity="0.15"/>
+  <path d="M135 70 L165 70 L165 95 L178 120 L178 240 Q178 254 150 254 Q122 254 122 240 L122 120 L135 95 Z" fill="none" stroke="#241811" stroke-width="3"/>
+  <path d="M126 150 L174 150 L174 236 Q174 246 150 246 Q126 246 126 236 Z" fill="#5C3A1E"/>
+  <rect x="140" y="55" width="20" height="18" rx="3" fill="#6F8265"/>
+  <g fill="#DCEFF5" opacity="0.9">
+    <rect x="134" y="170" width="18" height="18" rx="4" transform="rotate(12 143 179)"/>
+    <rect x="154" y="200" width="16" height="16" rx="4" transform="rotate(-8 162 208)"/>
+  </g>
+</svg>

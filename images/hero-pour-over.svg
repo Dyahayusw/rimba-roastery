@@ -1,0 +1,66 @@
+<svg viewBox="0 0 640 640" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="heroTitle">
+  <title id="heroTitle">Ilustrasi proses menyeduh kopi single-origin dengan metode pour-over</title>
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#3A2A1C"/>
+      <stop offset="100%" stop-color="#241811"/>
+    </linearGradient>
+    <linearGradient id="liquidGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8A5A32"/>
+      <stop offset="100%" stop-color="#5C3A1E"/>
+    </linearGradient>
+    <radialGradient id="steamFade" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#F6F0E7" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#F6F0E7" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="640" height="640" rx="28" fill="url(#bgGrad)"/>
+
+  <!-- soft glow behind dripper -->
+  <ellipse cx="320" cy="360" rx="220" ry="200" fill="url(#steamFade)" opacity="0.4"/>
+
+  <!-- table surface -->
+  <ellipse cx="320" cy="520" rx="260" ry="34" fill="#160F0A"/>
+
+  <!-- server carafe -->
+  <path d="M250 380 L390 380 L378 500 Q378 522 320 522 Q262 522 262 500 Z" fill="#2E2118" stroke="#C97D3F" stroke-width="3"/>
+  <path d="M262 460 L378 460 L372 498 Q372 512 320 512 Q268 512 268 498 Z" fill="url(#liquidGrad)"/>
+  <path d="M390 400 Q430 405 428 430 Q426 452 392 448" fill="none" stroke="#C97D3F" stroke-width="6" stroke-linecap="round"/>
+
+  <!-- dripper cone -->
+  <path d="M270 330 L370 330 L344 384 L296 384 Z" fill="#6F8265" stroke="#F6F0E7" stroke-width="2"/>
+  <ellipse cx="320" cy="330" rx="50" ry="10" fill="#7C9270"/>
+
+  <!-- coffee grounds inside dripper -->
+  <ellipse cx="320" cy="336" rx="38" ry="7" fill="#3A2416"/>
+
+  <!-- kettle -->
+  <g transform="translate(150,150) rotate(18)">
+    <path d="M0 60 Q0 10 60 10 L120 10 Q170 10 170 55 L170 110 Q170 150 120 150 L40 150 Q0 150 0 110 Z" fill="#C97D3F"/>
+    <path d="M170 60 Q220 55 226 30" fill="none" stroke="#C97D3F" stroke-width="14" stroke-linecap="round"/>
+    <ellipse cx="85" cy="20" rx="45" ry="10" fill="#E9A469"/>
+    <path d="M20 40 Q85 55 150 40" fill="none" stroke="#8C4E1F" stroke-width="4" opacity="0.5"/>
+  </g>
+
+  <!-- pouring water stream -->
+  <path d="M270 232 Q272 270 300 320" fill="none" stroke="#DCEFF5" stroke-width="5" stroke-linecap="round" opacity="0.85"/>
+
+  <!-- steam wisps -->
+  <path d="M300 300 Q290 270 305 245 Q318 222 305 195" fill="none" stroke="#F6F0E7" stroke-width="5" stroke-linecap="round" opacity="0.35"/>
+  <path d="M340 300 Q352 268 336 245 Q322 222 338 198" fill="none" stroke="#F6F0E7" stroke-width="5" stroke-linecap="round" opacity="0.25"/>
+
+  <!-- scattered coffee beans -->
+  <g fill="#C97D3F">
+    <ellipse cx="130" cy="500" rx="14" ry="9" transform="rotate(-25 130 500)"/>
+    <ellipse cx="160" cy="480" rx="14" ry="9" transform="rotate(10 160 480)"/>
+    <ellipse cx="500" cy="490" rx="14" ry="9" transform="rotate(20 500 490)"/>
+    <ellipse cx="470" cy="470" rx="14" ry="9" transform="rotate(-15 470 470)"/>
+  </g>
+  <g fill="none" stroke="#7A4A24" stroke-width="1.5">
+    <path d="M124 494 Q130 500 136 506"/>
+    <path d="M154 474 Q160 480 166 486"/>
+    <path d="M494 484 Q500 490 506 496"/>
+    <path d="M464 464 Q470 470 476 476"/>
+  </g>
+</svg>

@@ -1,0 +1,11 @@
+<svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t1">
+  <title id="t1">Kemasan kopi single-origin Gayo dengan label krem</title>
+  <rect width="300" height="300" rx="20" fill="#F6F0E7"/>
+  <path d="M90 90 L210 90 L216 120 L84 120 Z" fill="#2E2118"/>
+  <path d="M84 120 L216 120 L206 250 Q150 262 94 250 Z" fill="#3A2A1C"/>
+  <rect x="120" y="150" width="60" height="70" rx="6" fill="#F6F0E7"/>
+  <text x="150" y="178" font-family="Georgia, serif" font-size="13" fill="#241811" text-anchor="middle">GAYO</text>
+  <text x="150" y="196" font-family="Georgia, serif" font-size="9" fill="#7A6B5D" text-anchor="middle">SINGLE ORIGIN</text>
+  <path d="M110 95 Q150 78 190 95" fill="none" stroke="#C97D3F" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="150" cy="240" r="5" fill="#6F8265"/>
+</svg>

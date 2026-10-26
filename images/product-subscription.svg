@@ -1,0 +1,12 @@
+<svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t3">
+  <title id="t3">Kotak langganan bulanan berisi tiga kemasan kopi</title>
+  <rect width="300" height="300" rx="20" fill="#F6F0E7"/>
+  <path d="M80 130 L220 130 L220 230 L80 230 Z" fill="#C97D3F"/>
+  <path d="M80 130 L150 108 L220 130 L150 152 Z" fill="#E9A469"/>
+  <path d="M80 130 L150 152 L150 250 L80 230 Z" fill="#A5622C"/>
+  <path d="M220 130 L150 152 L150 250 L220 230 Z" fill="#8C4E1F"/>
+  <path d="M150 108 L150 250" stroke="#5C3416" stroke-width="2" opacity="0.4"/>
+  <rect x="96" y="150" width="16" height="50" rx="3" fill="#3A2A1C"/>
+  <rect x="120" y="158" width="16" height="42" rx="3" fill="#3A2A1C"/>
+  <circle cx="150" cy="95" r="10" fill="#6F8265"/>
+</svg>
